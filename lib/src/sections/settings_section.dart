@@ -24,7 +24,7 @@ class SettingsSection extends AbstractSettingsSection {
     final theme = SettingsTheme.of(context);
 
     switch (theme.platform) {
-      case DevicePlatform.android:
+      //ODO: case DevicePlatform.android:
       case DevicePlatform.fuchsia:
       case DevicePlatform.linux:
         return AndroidSettingsSection(
@@ -32,6 +32,7 @@ class SettingsSection extends AbstractSettingsSection {
           tiles: tiles,
           margin: margin,
         );
+      case DevicePlatform.android: //ODO
       case DevicePlatform.iOS:
       case DevicePlatform.macOS:
       case DevicePlatform.windows:

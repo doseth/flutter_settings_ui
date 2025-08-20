@@ -56,29 +56,21 @@ SettingsThemeData _androidTheme({
 
   final isLight = brightness == Brightness.light;
 
-  final listBackground =
-      isLight ? lightSettingsListBackground : darkSettingsListBackground;
+  final listBackground = isLight ? lightSettingsListBackground : darkSettingsListBackground;
 
-  final titleTextColor =
-      isLight ? lightSettingsTitleColor : darkSettingsTitleColor;
+  final titleTextColor = isLight ? lightSettingsTitleColor : darkSettingsTitleColor;
 
-  final settingsTileTextColor =
-      isLight ? lightSettingsTileTextColor : darkSettingsTileTextColor;
+  final settingsTileTextColor = isLight ? lightSettingsTileTextColor : darkSettingsTileTextColor;
 
-  final tileHighlightColor =
-      isLight ? lightTileHighlightColor : darkTileHighlightColor;
+  final tileHighlightColor = isLight ? lightTileHighlightColor : darkTileHighlightColor;
 
-  final tileDescriptionTextColor =
-      isLight ? lightTileDescriptionTextColor : darkTileDescriptionTextColor;
+  final tileDescriptionTextColor = isLight ? lightTileDescriptionTextColor : darkTileDescriptionTextColor;
 
-  final leadingIconsColor =
-      isLight ? lightLeadingIconsColor : darkLeadingIconsColor;
+  final leadingIconsColor = isLight ? lightLeadingIconsColor : darkLeadingIconsColor;
 
-  final inactiveTitleColor =
-      isLight ? lightInactiveTitleColor : darkInactiveTitleColor;
+  final inactiveTitleColor = isLight ? lightInactiveTitleColor : darkInactiveTitleColor;
 
-  final inactiveSubtitleColor =
-      isLight ? lightInactiveSubtitleColor : darkInactiveSubtitleColor;
+  final inactiveSubtitleColor = isLight ? lightInactiveSubtitleColor : darkInactiveSubtitleColor;
 
   return SettingsThemeData(
     tileHighlightColor: tileHighlightColor,
@@ -122,28 +114,21 @@ SettingsThemeData _iosTheme({
 
   final isLight = brightness == Brightness.light;
 
-  final listBackground =
-      isLight ? lightSettingsListBackground : darkSettingsListBackground;
+  final listBackground = isLight ? lightSettingsListBackground : darkSettingsListBackground;
 
-  final sectionBackground =
-      isLight ? lightSettingSectionColor : darkSettingSectionColor;
+  final sectionBackground = isLight ? lightSettingSectionColor : darkSettingSectionColor;
 
-  final titleTextColor =
-      isLight ? lightSettingsTitleColor : darkSettingsTitleColor;
+  final titleTextColor = isLight ? lightSettingsTitleColor : darkSettingsTitleColor;
 
-  final settingsTileTextColor =
-      isLight ? lightSettingsTileTextColor : darkSettingsTileTextColor;
+  final settingsTileTextColor = isLight ? lightSettingsTileTextColor : darkSettingsTileTextColor;
 
   final dividerColor = isLight ? lightDividerColor : darkDividerColor;
 
-  final trailingTextColor =
-      isLight ? lightTrailingTextColor : darkTrailingTextColor;
+  final trailingTextColor = isLight ? lightTrailingTextColor : darkTrailingTextColor;
 
-  final tileHighlightColor =
-      isLight ? lightTileHighlightColor : darkTileHighlightColor;
+  final tileHighlightColor = isLight ? lightTileHighlightColor : darkTileHighlightColor;
 
-  final leadingIconsColor =
-      isLight ? lightLeadingIconsColor : darkLeadingIconsColor;
+  final leadingIconsColor = isLight ? lightLeadingIconsColor : darkLeadingIconsColor;
 
   return SettingsThemeData(
     tileHighlightColor: tileHighlightColor,
@@ -190,26 +175,19 @@ SettingsThemeData _webTheme({
 
   final isLight = brightness == Brightness.light;
 
-  final listBackground =
-      isLight ? lightSettingsListBackground : darkSettingsListBackground;
+  final listBackground = isLight ? lightSettingsListBackground : darkSettingsListBackground;
 
-  final titleTextColor =
-      isLight ? lightSettingsTitleColor : darkSettingsTitleColor;
+  final titleTextColor = isLight ? lightSettingsTitleColor : darkSettingsTitleColor;
 
-  final settingsTileTextColor =
-      isLight ? lightSettingsTileTextColor : darkSettingsTileTextColor;
+  final settingsTileTextColor = isLight ? lightSettingsTileTextColor : darkSettingsTileTextColor;
 
-  final tileHighlightColor =
-      isLight ? lightTileHighlightColor : darkTileHighlightColor;
+  final tileHighlightColor = isLight ? lightTileHighlightColor : darkTileHighlightColor;
 
-  final tileDescriptionTextColor =
-      isLight ? lightTileDescriptionTextColor : darkTileDescriptionTextColor;
+  final tileDescriptionTextColor = isLight ? lightTileDescriptionTextColor : darkTileDescriptionTextColor;
 
-  final leadingIconsColor =
-      isLight ? lightLeadingIconsColor : darkLeadingIconsColor;
+  final leadingIconsColor = isLight ? lightLeadingIconsColor : darkLeadingIconsColor;
 
-  final sectionBackground =
-      isLight ? lightSettingSectionColor : darkSettingSectionColor;
+  final sectionBackground = isLight ? lightSettingSectionColor : darkSettingSectionColor;
 
   return SettingsThemeData(
     tileHighlightColor: tileHighlightColor,
