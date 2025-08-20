@@ -11,7 +11,7 @@ SettingsThemeData getTheme({
     case DevicePlatform.android:
     case DevicePlatform.fuchsia:
     case DevicePlatform.linux:
-      return _androidTheme(context: context, brightness: brightness);
+    //ODO return _androidTheme(context: context, brightness: brightness);
     case DevicePlatform.iOS:
     case DevicePlatform.macOS:
     case DevicePlatform.windows:
